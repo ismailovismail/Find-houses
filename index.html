@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/sass/style.css">
+   
+    <title>Find Houses</title>
+    <style>
+      .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+   
+ }
+    </style>
+</head>
+<body> 
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-white pt-4 pb-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/img/logo-gray.png" width="50" alt="Houses"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-3" id="navbarSupportedContent" style="width: 60%;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-evenly" style="width: 45%;">
+              <li class="nav-item dropdown">
+                <a class="nav-link" role="button" aria-expanded="false" data-bs-toggle="dropdown" href="#">Home <i class="fa-solid fa-angle-down" style="font-size:13px;"></i></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item d-flex justify-content-between align-items-center "href="#" style="height: 50px;">
+                                <span>Home Map</span>   
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                          </li>
+                        <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                            <span>Home Image </span>
+                            <i class="fa-solid fa-angle-right"></i> 
+                        </a></li>
+                        <li> 
+                            <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                               <span> Home Video </span>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                                <span>Home Slider</span>
+                                 <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                                <span>Home Styles </span>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </li>
+                    
+                
+           
+              <li class="nav-item dropdown">
+                <a class="nav-link" role="button" aria-expanded="false" data-bs-toggle="dropdown" href="#">Listing <i class="fa-solid fa-angle-down" style="font-size:13px;"></i></a>
+                <ul class="dropdown-menu">
+                  <li>
+                      <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                          <span>Listing Grid</span>   
+                          <i class="fa-solid fa-angle-right"></i>
+                      </a>
+                    </li>
+                  <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                      <span>Listing List </span>
+                      <i class="fa-solid fa-angle-right"></i> 
+                  </a></li>
+                  <li> 
+                      <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                         <span> Listing Map </span>
+                          <i class="fa-solid fa-angle-right"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                          <span>Agent View</span>
+                           <i class="fa-solid fa-angle-right"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                          <span>Agencies View </span>
+                          <i class="fa-solid fa-angle-right"></i>
+                      </a>
+                  </li>
+              </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Property <i class="fa-solid fa-angle-down" style="font-size: 13px;"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                        <span>Single Property 1</span>   
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                    <span>Single Property 2</span>
+                    <i class="fa-solid fa-angle-right"></i> 
+                </a></li>
+                <li> 
+                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                       <span>Single Property 3</span>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                        <span>Single Property 4</span>
+                         <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                        <span>Single Property 5 </span>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                      <span>Single Property 6 </span>
+                      <i class="fa-solid fa-angle-right"></i>
+                  </a>
+              </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages <i class="fa-solid fa-angle-down" style="font-size: 13px;"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                        <span>Shop</span>   
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                    <span>User Panel</span>
+                    <i class="fa-solid fa-angle-right"></i> 
+                </a></li>
+                <li> 
+                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                       About Us
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                       Faq
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                       Princing Tables
+                    </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex justify-content-between align-items-center" href="#" style="height: 50px;">
+                      Page 404
+                  </a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-item d-flex justify-content-between align-items-center" style="height: 50px;">Login</a>
+              </li>
+              <li>
+                
+                <a href="#" class="dropdown-item d-flex justify-content-between align-items-center" style="height: 50px;">Register</a>
+              </li>
+              <li>
+                
+                <a href="#" class="dropdown-item d-flex justify-content-between align-items-center" style="height: 50px;">Coming Soon</a>
+              </li>
+              <li>
+                
+                <a href="#" class="dropdown-item d-flex justify-content-between align-items-center" style="height: 50px;">Under Construction</a>
+              </li>
+              <li>
+                
+                <a href="#" class="dropdown-item d-flex justify-content-between align-items-center" style="height: 50px;">UI Elements</a>
+              </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Blog <i class="fa-solid fa-angle-down" style="font-size: 13px;"></i></a>
+                <ul class="dropdown-menu">
+                  <li>
+                
+                    <a href="#" class="dropdown-item d-flex justify-content-between align-items-center" style="height: 50px;"><span>Grid Layout</span>   
+                      <i class="fa-solid fa-angle-right"></i></a>
+                  </li>
+                  <li>
+                    
+                    <a href="#" class="dropdown-item d-flex justify-content-between align-items-center" style="height: 50px;"><span>  List Layout</span>   
+                      <i class="fa-solid fa-angle-right"></i></a>
+                  </li>
+                  <li>
+                    
+                    <a href="#" class="dropdown-item d-flex justify-content-between align-items-center" style="height: 50px;"><span>Blog Details</span>   
+                      <i class="fa-solid fa-angle-right"></i></a>
+                  </li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <div class="form d-flex justify-content-between align-items-center" style="width: 33%;">
+                
+                <div class="link px-3  " style="border: 1px solid black; border-top: none; border-bottom: none;">
+                    <a href="#" style="color: black; text-decoration:none;">Sign In</a>
+                </div>
+
+              <div class="imgbtn d-flex ">
+                <img src="assets/img/ts-1.jpg" width="40" alt="" style="border-radius: 50%;">
+                <div class="dropdown  d-flex align-items-center">
+                    <a class=" ms-3 nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" >
+                      Hi,Mary!
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+              </div>
+              <div class="lnkbtn " >
+              <button class="btn btn-secondary px-4 py-2" type="button" style="font-weight: bold; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Add Listing <i class="bi bi-house-door"></i></button>
+              
+            
+        </div>
+        </div>
+           </div>
+          </div>
+        </div>
+      </nav>
+</header>
+<section class="sec1">
+  <div class="card text-bg-dark">
+    <img src="assets/img/video-poster2.png" class="card-img" alt="..." height="600">
+        
+      <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.459);">
+        <div class="container d-flex justify-content-center flex-column" style="height: 500px;">
+        <h6 class="card-title" style="font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">We Have Over Million Properties For You</h6>
+        <p class="card-text firstxt " style="font-size: 45px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight:bold; width:30%">Find Your Dream Home</p>
+        <div class="d-grid gap-2 d-md-block mt-3" style="width: 100%;">
+          <button class="btn btn-secondary hm" type="button" style="font-weight: bold; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">For Sale</button>
+          <button class="btn btn-light ms-2" type="button" style="font-weight: bold; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">For Rent</button>
+        </div>
+          
+        <nav class="navbar bg-light mt-3 py-4 " style="border-radius: 15px; border: 5px solid rgb(110, 110, 124);">
+         
+            
+          
+             <div class="container-fluid">
+              
+              
+             
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 px-4" type="search" placeholder="Search" aria-label="Search" style="width: 100%;">
+            </form>
+          
+              <div class="dropdown ">
+                <button class="btn btn-light  px-4 py-2 " type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                  Property Type
+                  <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Family House</a></li>
+                  <li><a class="dropdown-item" href="#" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Apartment</a></li>
+                  <li><a class="dropdown-item" href="#" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Condo</a></li>
+                </ul>
+              </div>
+              <div class="dropdown ">
+                <button class="btn btn-light px-4 py-2  "  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Location</span> 
+                  <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Los Angles</a></li>
+                  <li><a class="dropdown-item" href="#"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Chicago</a></li>
+                  <li><a class="dropdown-item" href="#"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Philadelphia</a></li>
+                  <li><a href="#" class="dropdown-item"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">San Francisco</a></li>
+                  <li><a href="#" class="dropdown-item"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Miami</a></li>
+                  <li><a href="#" class="dropdown-item"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Houston</a></li>
+                </ul>
+              </div>
+              <div class="dropdown ">
+        <button class="btn btn-light px-4 py-2" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+         Advanced Search
+         <i class="fa-solid fa-angle-down"></i>
+         </button>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Action</a></li>
+         <li><a class="dropdown-item" href="#"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Another action</a></li>
+        <li><a class="dropdown-item" href="#"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Something else here</a></li>
+        </ul>
+        </div>
+              <button class="btn btn-secondary py-2 search text-white" style="width:15%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;" type="submit">Search</button>
+            
+            
+            </div>
+        </nav>
+      
+      </div>
+      </div>
+    
+      </div>
+   
+  </div>
+</section>
+<section class="sec2">
+  
+    
+      <div class="container-fluid">
+           
+        
+          <div class="head">
+            <h5>
+              RECENT
+            </h5>
+            <h1 class="text-secondary">
+              PROPERTIES
+            </h1>
+          </div>
+          <div class="into">
+           
+            
+            
+         
+           
+                <div class="row gap-5">
+                  
+                  <div class="card col-12 col-sm-6  p-0 card1" style="width: 17rem;">
+                     
+                     <div class="image">
+                      <div class="text">
+                        <div class="container">
+                          <div class="contain">
+                            <div class="link">
+                              <a href="#" class="btn btn-secondary">Featured</a>
+                              <a href="#" class="btn btn-secondary">For Sale</a>
+                            </div>
+                            <div class="cost">
+                              
+                              <p class="text-white" style="width: 50%; font-size:20px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                $9,000/mo 
+                              </p>
+                              <div class="icons d-flex justify-content-evenly" style="width: 50%;">
+                                <i class="bi bi-link-45deg text-white p-2" style="font-size: 15px; background-color: rgba(0, 0, 0, 0.568);border-radius: 10px;"></i>
+                                <i class="bi bi-image text-white p-2" style="font-size: 15px; background-color: rgba(0, 0, 0, 0.568); border-radius: 10px;"></i>
+                                <i class="bi bi-camera-video text-white p-2" style="font-size: 15px;background-color: rgba(0, 0, 0, 0.568); border-radius: 10px;"></i>
+                              </div>
+                          </div>
+                        </div>
+                        
+                        </div>
+                       </div>
+                    <img src="assets/img/b-11.jpg" class="card-img-top img-fluid" alt="...">
+                    </div>
+                  <div class="card-body d-flex flex-column justify-content-between" style="height:150px;">
+                    <div class="title">
+                    <h1 class="card-title" style="font-size:18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">Real House Luxury Villa</h1>
+                    
+                      
+                      <h5 class="card-title" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px;">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Est st,77-Central ParkSouth,NYC
+                      </h5>
+                    
+                  </div>
+                    <div class="card-text d-flex justify-content-between flex-column" style="height: 50px;">
+                      <div class="text1 d-flex justify-content-between">
+                        <p>
+                          <i class="fa-solid fa-bed"></i>
+                          6 Bedrooms
+                        </p>
+                        <p>
+                          <i class="fa-solid fa-sink"></i>
+                          3 Bathrooms
+                        </p>
+                      </div>
+                      <div class="text2 d-flex justify-content-between">
+                        <p>
+                          <i class="bi bi-rulers"></i>
+                          720 sq ft
+                        </p>
+                        <p>
+                          <i class="fa-solid fa-warehouse"></i>
+                          2 Garages
+                        </p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                
+              
+                 </div>
+             
+              <div class="card col-12 col-sm-6   p-0"  style="width: 17rem;">
+
+
+                <div class="image">
+                  <div class="text">
+                    <div class="container">
+                      <div class="contain">
+                        <div class="link d-flex justify-content-end">
+                         
+                          <a href="#" class="btn btn-secondary">For Rent</a>
+                        </div>
+                        <div class="cost">
+                          
+                          <p class="text-white" style="width: 50%; font-size:20px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            $3,000/mo 
+                          </p>
+                          <div class="icons d-flex justify-content-evenly" style="width: 50%;">
+                            <i class="bi bi-link-45deg text-white p-2" style="font-size: 15px; background-color: rgba(0, 0, 0, 0.568);border-radius: 10px;"></i>
+                            <i class="bi bi-image text-white p-2" style="font-size: 15px; background-color: rgba(0, 0, 0, 0.568); border-radius: 10px;"></i>
+                            <i class="bi bi-camera-video text-white p-2" style="font-size: 15px;background-color: rgba(0, 0, 0, 0.568); border-radius: 10px;"></i>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                <img src="assets/img/b-12.jpg" class="card-img-top" alt="...">
+              </div>
+                <div class="card-body  d-flex flex-column justify-content-between" style="height: 150px;">
+                  <div class="title">
+                    <h1 class="card-title" style="font-size:18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">Real House Luxury Villa</h1>
+                    
+                      
+                      <h5 class="card-title" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px;">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Est st,77-Central ParkSouth,NYC
+                      </h5>
+                    
+                  </div>
+                    <div class="card-text d-flex justify-content-between flex-column" style="height: 50px;">
+                      <div class="text1 d-flex justify-content-between">
+                        <p>
+                          <i class="fa-solid fa-bed"></i>
+                          6 Bedrooms
+                        </p>
+                        <p>
+                          <i class="fa-solid fa-sink"></i>
+                          3 Bathrooms
+                        </p>
+                      </div>
+                      <div class="text2 d-flex justify-content-between">
+                        <p>
+                          <i class="bi bi-rulers"></i>
+                          720 sq ft
+                        </p>
+                        <p>
+                          <i class="fa-solid fa-warehouse"></i>
+                          2 Garages
+                        </p>
+                      </div>
+                    </div>
+                </div>
+              </div> 
+             
+              <div class="card col-12 col-sm-6  p-0" style="width: 17rem;">
+                <div class="image">
+                  <div class="text">
+                    <div class="container">
+                      <div class="contain">
+                        <div class="link d-flex justify-content-end">
+                         
+                          <a href="#" class="btn btn-secondary">For Sale</a>
+                        </div>
+                        <div class="cost">
+                          
+                          <p class="text-white" style="width: 50%; font-size:20px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            $9,000/mo 
+                          </p>
+                          <div class="icons d-flex justify-content-evenly" style="width: 50%;">
+                            <i class="bi bi-link-45deg text-white p-2" style="font-size: 15px; background-color: rgba(0, 0, 0, 0.568);border-radius: 10px;"></i>
+                            <i class="bi bi-image text-white p-2" style="font-size: 15px; background-color: rgba(0, 0, 0, 0.568); border-radius: 10px;"></i>
+                            <i class="bi bi-camera-video text-white p-2" style="font-size: 15px;background-color: rgba(0, 0, 0, 0.568); border-radius: 10px;"></i>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                <img src="assets/img/b-1.jpg" class="card-img-top " alt="...">
+              </div>
+                <div class="card-body  d-flex flex-column justify-content-between">
+                  <div class="title">
+                    <h1 class="card-title" style="font-size:18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">Real House Luxury Villa</h1>
+                    
+                      
+                      <h5 class="card-title" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px;">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Est st,77-Central ParkSouth,NYC
+                      </h5>
+                    
+                  </div>
+                    <div class="card-text d-flex justify-content-between flex-column" style="height: 50px;">
+                      <div class="text1 d-flex justify-content-between">
+                        <p>
+                          <i class="fa-solid fa-bed"></i>
+                          6 Bedrooms
+                        </p>
+                        <p>
+                          <i class="fa-solid fa-sink"></i>
+                          3 Bathrooms
+                        </p>
+                      </div>
+                      <div class="text2 d-flex justify-content-between">
+                        <p>
+                          <i class="bi bi-rulers"></i>
+                          720 sq ft
+                        </p>
+                        <p>
+                          <i class="fa-solid fa-warehouse"></i>
+                          2 Garages
+                        </p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="card col-12 col-sm-6  p-0" style="width: 17rem;">
+                <div class="image">
+                  <div class="text">
+                    <div class="container">
+                      <div class="contain">
+                        <div class="link">
+                          <a href="#" class="btn btn-secondary">Featured</a>
+                          <a href="#" class="btn btn-secondary">For Rent</a>
+                        </div>
+                        <div class="cost">
+                          
+                          <p class="text-white" style="width: 50%; font-size:20px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            $3,000/mo 
+                          </p>
+                          <div class="icons d-flex justify-content-evenly" style="width: 50%;">
+                            <i class="bi bi-link-45deg text-white p-2" style="font-size: 15px; background-color: rgba(0, 0, 0, 0.568);border-radius: 10px;"></i>
+                            <i class="bi bi-image text-white p-2" style="font-size: 15px; background-color: rgba(0, 0, 0, 0.568); border-radius: 10px;"></i>
+                            <i class="bi bi-camera-video text-white p-2" style="font-size: 15px;background-color: rgba(0, 0, 0, 0.568); border-radius: 10px;"></i>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                <img src="assets/img/fp-10.jpg" class="card-img-top" alt="...">
+              </div>
+                <div class="card-body d-flex justify-content-between flex-column">
+                  <div class="title">
+                    <h1 class="card-title" style="font-size:18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">Real House Luxury Villa</h1>
+                    
+                      
+                      <h5 class="card-title" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px;">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Est st,77-Central ParkSouth,NYC
+                      </h5>
+                    
+                  </div>
+                    <div class="card-text d-flex justify-content-between flex-column" style="height: 50px;">
+                      <div class="text1 d-flex justify-content-between">
+                        <p>
+                          <i class="fa-solid fa-bed"></i>
+                          6 Bedrooms
+                        </p>
+                        <p>
+                          <i class="fa-solid fa-sink"></i>
+                          3 Bathrooms
+                        </p>
+                      </div>
+                      <div class="text2 d-flex justify-content-between">
+                        <p>
+                          <i class="bi bi-rulers"></i>
+                          720 sq ft
+                        </p>
+                        <p>
+                          <i class="fa-solid fa-warehouse"></i>
+                          2 Garages
+                        </p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+                </div>
+            
+            
+           </div>
+        
+         
+        
+    
+      </div>
+        
+      
+
+         
+        
+    
+  
+</section>
+<section class="sec3">
+ <div class="container-fluid">
+  <div class="head">
+    
+    <h5>Popular</h5>
+    <h1>Places</h1>
+
+  </div>
+  <div class="inside">
+    <div class="row">
+      <div class="text img-fluid col-12 col-sm-6 col-md-6 col-lg-3" style="position: relative;">
+        <div class="sbtext bg-secondary" style="position: absolute; z-index: 1; top:35px; transform:rotate(315deg) translateY(-22px) translateX(5px);">
+          <p class="text-white px-2">Featured</p>
+        </div>
+       
+          <div class="title d-flex flex-column justify-content-center align-items-center img-fluid" style="position:absolute ;  width:290px; height: 320px;  border-radius: 10px; background-color: rgba(0, 0, 0, 0.589);">
+            <h1 class="text-white mb-2" style="font-size: 25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; ">New York City</h1>
+            <h5 class="text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">203 Properties</h5>
+         
+        </div>
+    <img src="assets/img/12.jpg" class="img-fluid" alt="..." style="height:320px; width: 290px; border-radius: 10px;" >
+  </div> 
+  <div class="text img-fluid col-12 col-sm-6 col-md-6 col-lg-3">
+    <div class="title d-flex flex-column justify-content-center align-items-center img-fluid" style="position:absolute ;  width:290px; height: 320px;  border-radius: 10px; background-color: rgba(0, 0, 0, 0.589);">
+      <h1 class="text-white mb-2" style="font-size: 25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; ">Los Angeles</h1>
+      <h5 class="text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">307 Properties</h5>
+   
+  </div>
+    <img src="assets/img/13.jpg" class="img-fluid" alt="..." style="height: 320px; width: 290px; border-radius: 10px;">
+  </div>
+  <div class="text img-fluid col-12 col-sm-6 col-md-6 col-lg-3">
+    <div class="title d-flex flex-column justify-content-center align-items-center img-fluid" style="position:absolute ;  width:290px; height: 320px;  border-radius: 10px; background-color: rgba(0, 0, 0, 0.589);">
+      <h1 class="text-white mb-2" style="font-size: 25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; ">San Francisco</h1>
+      <h5 class="text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">409 Properties</h5>
+   
+  </div>
+    <img src="assets/img/14.jpg" class="img-fluid"  alt="..." style="height: 320px; width: 290px; border-radius: 10px;">
+  </div>
+  <div class="text img-fluid col-12 col-sm-6 col-md-6 col-lg-3" style="position:relative">
+    <div class="sbtext bg-secondary" style="position: absolute; z-index: 1; top:35px; transform:rotate(315deg) translateY(-22px) translateX(5px);">
+      <p class="text-white px-2">Featured</p>
+    </div>
+      <div class="title d-flex flex-column justify-content-center align-items-center img-fluid" style="position:absolute ;  width:290px; height: 320px;  border-radius: 10px; background-color: rgba(0, 0, 0, 0.589);">
+        <h1 class="text-white mb-2" style="font-size: 25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; ">Miami</h1>
+        <h5 class="text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">507 Properties</h5>
+     
+    </div>
+    <img src="assets/img/15.jpg" class="img-fluid"  alt="..." style="height: 320px; width: 290px; border-radius: 10px;">
+  </div>
+  </div>
+  </div>
+ </div>
+</section>
+<section class="sec4">
+  <div class="card text-bg-dark">
+    <img src="assets/img/info-service3.jpg" class="card-img" alt="info" style="height: 450px;">
+    <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center" style="background-color: rgba(0, 0, 0, 0.596);">
+      <h1 class="card-title mb-3" style="font-size: 35px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"> Why Choose Us</h1>
+      <p class="card-text" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">We offer perfect real estate services</p>
+     
+    </div>
+  </div>
+</section>
+<section class="sec5">
+  <div class="container-fluid">
+    
+      
+        <div class="card-group">
+          <div class="row">
+          <div class="card col-12 col-sm-6 col-md-3">
+            <div class="image d-flex justify-content-center align-items-center" style="height: 150px;">
+            <img src="assets/img/i-1.png"  class="card-img-top" alt="..." style="width: 100px;">
+          </div>
+            <div class="card-body d-flex flex-column justify-content-evenly">
+              <h1 class="card-title" style="text-align: center; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">Find Your Home</h1>
+              <div class="text d-flex flex-column justify-content-evenly" style="height: 70px;"> 
+              <p class="card-text" style="font-size:13px ;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(110, 110, 124);">Lorem ipsum suspendisse ultrices gravida.</p>
+              <p class="card-text" style="font-size: 13px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(110, 110, 124);">Risus commodo viverra maecenas accumsan.</p>
+            </div>
+            <div class="link d-flex justify-content-center">
+              <a href="#" class="text-dark" style="text-decoration: none;">Read More</a>
+            </div>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-6 col-md-3">
+            <div class="image d-flex justify-content-center align-items-center" style="height: 150px;">
+            <img src="assets/img/i-2.png" class="card-img-top" alt="..." style="width: 100px;">
+          </div>
+            <div class="card-body d-flex flex-column justify-content-evenly">
+              <h1 class="card-title" style="text-align: center; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">Trusted by thousands</h1>
+              <div class="text d-flex flex-column justify-content-evenly" style="height: 70px;"> 
+              <p class="card-text" style="font-size:13px ;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(110, 110, 124);">Lorem ipsum suspendisse ultrices gravida.</p>
+              <p class="card-text" style="font-size: 13px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(110, 110, 124);">Risus commodo viverra maecenas accumsan.</p>
+            </div>
+            <div class="link d-flex justify-content-center">
+              <a href="#" class="text-dark" style="text-decoration: none;">Read More</a>
+            </div>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-6 col-md-3">
+            <div class="image d-flex justify-content-center align-items-center" style="height: 150px;">
+            <img src="assets/img/i-3.png" class="card-img-top" alt="..." style="width: 100px;">
+          </div>
+            <div class="card-body d-flex flex-column justify-content-evenly">
+              <h1 class="card-title" style="text-align: center; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">Financing made easy</h1>
+              <div class="text d-flex flex-column justify-content-evenly" style="height: 70px;">
+              <p class="card-text" style="font-size:13px ;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(110, 110, 124);">Lorem ipsum suspendisse ultrices gravida.</p>
+              <p class="card-text" style="font-size: 13px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(110, 110, 124);">Risus commodo viverra maecenas accumsan.</p>
+            </div>
+            <div class="link d-flex justify-content-center">
+              <a href="#" class="text-dark" style="text-decoration: none;">Read More</a>
+            </div>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-6 col-md-3">
+            <div class="image d-flex justify-content-center align-items-center" style="height: 150px;">
+            <img src="assets/img/i-4.png" class="card-img-top" alt="..." style="width: 100px;">
+          </div>
+            <div class="card-body d-flex justify-content-evenly flex-column ">
+              <h1 class="card-title" style="text-align: center; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">24/7 support</h1>
+              <div class="text d-flex flex-column justify-content-evenly" style="height: 70px;">
+              <p class="card-text" style="font-size:13px ;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(110, 110, 124);">Lorem ipsum suspendisse ultrices gravida.</p>
+              <p class="card-text" style="font-size: 13px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(110, 110, 124);">Risus commodo viverra maecenas accumsan.</p>
+            </div>
+            <div class="link d-flex justify-content-center">
+              <a href="#" class="text-dark" style="text-decoration: none;">Read More</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    
+  </div>
+</section>
+<section class="sec6">
+  <div class="container-fluid">
+    <div class="head">
+      <h5>MEET OUR</h5>
+      <h1>AGENTS</h1>
+    </div>
+    <div class="into">
+      <div class="row gap-4">
+      <div class="card p-0 col-12 col-sm-6 col-md-3" style="width: 12rem;">
+        <div class="text d-flex flex-column align-items-end" style="width: 100%;">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <img src="assets/img/t-5.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column justify-content-center justify-content-evenly" style="height: 80px;">
+          <h1 style="text-align: center; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">Carls Jhons</h1>
+          <p class="card-text" style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#687389 ;">Real Estate Agent</p>
+        </div>
+      </div>
+      <div class="card p-0 col-12 col-sm-6 col-md-3" style="width: 12rem;">
+        <div class="text d-flex flex-column align-items-end" style="width: 100%;">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <img src="assets/img/t-6.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column justify-content-evenly" style="height: 80px;">
+          <h1 style="text-align: center; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">Arling Tracy</h1>
+          <p class="card-text" style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#687389 ;">Real Estate Agent</p>
+        </div>
+      </div>
+      <div class="card p-0 col-12 col-sm-6 col-md-3" style="width: 12rem;">
+        <div class="text d-flex flex-column align-items-end" style="width: 100%;">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <img src="assets/img/t-7.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body d-flex flex-column justify-content-evenly" style="height: 80px;">
+          <h1 style="text-align: center; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">Mark Web</h1>
+          <p class="card-text" style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#687389 ;">Real Estate Agent</p>
+        </div>
+      </div>
+      <div class="card p-0 col-12 col-sm-6 col-md-3" style="width: 12rem;">
+        <div class="text d-flex flex-column align-items-end" style="width: 100%;">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <img src="assets/img/t-8.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column justify-content-evenly" style="height: 80px;">
+          <h1 style="text-align: center; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">Katy Grace</h1>
+          <p class="card-text" style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#687389 ;">Real Estate Agent</p>
+        </div>
+      </div>
+      <div class="card p-0 col-12 col-sm-6 col-md-3" style="width: 12rem;">
+        <div class="text d-flex flex-column align-items-end" style="width: 100%;">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <img src="assets/img/team-image-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column justify-content-evenly" style="height: 80px;">
+          <h1 style="text-align: center; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">Chris Melo</h1>
+          <p class="card-text" style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#687389 ;">Real Estate Agent</p>
+        </div>
+      </div>
+      <div class="card p-0 col-12 col-sm-6 col-md-3" style="width: 12rem;">
+        <div class="text d-flex flex-column align-items-end" style="width: 100%;">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <img src="assets/img/team-image-7.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column justify-content-evenly" style="height: 80px;">
+          <h1 style="text-align: center; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">Nina Thomas</h1>
+          <p class="card-text" style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#687389 ;">Real Estate Agent</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+<section class="sec7">
+  <div class="container-fluid">
+    <div class="row">
+  <div class="part1 col-12 col-sm-6 col-md-3 d-flex flex-column justify-content-evenly" style="height: 300px;">
+    <div class="logo">
+      <img src="assets/img/logo-black (2).png" alt="" style="width: 150px;"> 
+    </div>
+    <div class="text" style="width: 95%;">
+      <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 25px;">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam, perspiciatis, esse.
+      </p>
+    </div>
+    <div class="adress d-flex flex-column justify-content-evenly" style="height: 100px;">
+      <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <i class="bi bi-geo-alt-fill"></i>
+        95 South Park Avenue, USA
+      </p>
+      <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <i class="bi bi-telephone-fill"></i>
+        +456 875 369 208
+      </p>
+      <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <i class="bi bi-envelope-fill"></i>
+      support@findhouses.com
+      </p>
+    </div>
+
+  </div>
+  <div class="part2 col-12 col-sm-6 col-md-3">
+    <div class="nvgtn">
+     <div class="head">
+      <h1>
+        Navigation
+      </h1>
+     </div>
+     <div class="into d-flex justify-content-between">
+      <div class="menu1">
+        <ul>
+          <li>
+           <a href="#">Home One</a>
+           <hr>
+          </li>
+          
+          <li>
+            <a href="#">Properties Right</a>
+            <hr>
+          </li>
+          <li>
+            <a href="#">Properties List</a>
+            <hr>
+          </li>
+          <li>
+            <a href="#">Property Details</a>
+            <hr>
+          </li>
+          <li>
+            <a href="#">Agents Listing</a>
+            <hr>
+          </li>
+        </ul>
+      </div>
+      <div class="menu2">
+        <ul>
+          <li>
+            <a href="#">Agents Details</a>
+            <hr>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+            <hr>
+          </li>
+          <li>
+            <a href="#">Blog Default</a>
+            <hr>
+          </li>
+          <li>
+            <a href="#">Blog Details</a>
+            <hr>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+            <hr>
+          </li>
+        </ul>
+      </div>
+     </div>
+    </div>
+  </div>
+    <div class="part3 col-12 col-sm-6 col-md-3">
+      <div class="twtr">
+        <div class="head">
+          <h1>
+            Twitter Feeds
+          </h1>
+          <div class="line"></div>
+        </div>
+        <div class="into">
+          <div class="text1">
+           <div class="link">
+            <i class="bi bi-twitter"></i>
+            <a href="#">@Findhouses</a> All Share Them With Me Baby Said Inspet.
+           </div>
+            <p>
+              
+            about 5 days ago
+            </p>
+          </div>
+          <div class="text2">
+            <div class="link">
+              <i class="bi bi-twitter"></i>
+              <a href="#">@Findhouses</a> All Share Them With Me Baby Said Inspet.
+            </div>
+           <p>
+            about 5 days ago
+           </p>
+          </div>
+          <div class="text3">
+            <div class="link">
+              <i class="bi bi-twitter"></i>
+              <a href="#">@Findhouses</a> All Share Them With Me Baby Said Inspet.
+            </div>
+            <p>
+              about 5 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="part4 col-12 col-sm-6 col-md-3">
+      <div class="letter">
+        <div class="head">
+          <h1>
+            Newsletters
+          </h1>
+          <div class="line"></div>
+        </div>
+        <div class="into">
+          <div class="text">
+            <p>
+              Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive news in your inbox.
+            </p>
+          </div>
+          <div class="input">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control bg-dark text-white" placeholder="Enter Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-secondary" type="button" id="button-addon2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight:bold;">SUBSCRIBE</button>
+            </div>
+          </div>
+      </div>
+    
+    </div>
+  
+</div>
+  </div>
+</section>
+<section class="sec8" style="width: 100%;">
+  <div class="container-fluid" style="width: 100%;">
+    
+      <div class="main d-flex justify-content-between">
+        <div class="row">
+      <div class="text col-12 col-sm-6">
+        <p>
+          2021 © Copyright - All Rights Reserved.
+        </p>
+      </div>
+      <div class="icons col-12 col-sm-6">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+      </div>
+    
+  </div>
+</section>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

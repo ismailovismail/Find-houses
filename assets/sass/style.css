@@ -1,0 +1,623 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+header nav .container-fluid .collapse .form .imgbtn .dropdown .dropdown-toggle {
+  color: black;
+}
+header nav .container-fluid .collapse .dropdown {
+  transition: 0.5s;
+}
+header nav .container-fluid .collapse .dropdown .nav-link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header nav .container-fluid .collapse .dropdown:hover {
+  background-color: slategray;
+}
+header nav .container-fluid .collapse .dropdown:hover .nav-link {
+  color: white;
+}
+header nav .container-fluid .collapse .nav-item {
+  transition: 0.5s;
+}
+header nav .container-fluid .collapse .nav-item .nav-link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header nav .container-fluid .collapse .nav-item:hover {
+  background-color: slategray;
+}
+header nav .container-fluid .collapse .nav-item:hover .nav-link {
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav .container-fluid .collapse .form {
+    display: flex;
+    justify-content: space-between;
+  }
+  header nav .container-fluid .collapse .form .imgbtn {
+    transform: translateX(5px);
+  }
+  header nav .container-fluid .collapse .form .imgbtn .dropdown a {
+    transform: translateX(-15px);
+  }
+  header nav .container-fluid .collapse .form .lnkbtn button {
+    width: 200px;
+  }
+}
+.sec1 .hm {
+  position: relative;
+}
+.sec1 .hm::after {
+  position: absolute;
+  content: "";
+  border-color: #687389 transparent transparent transparent;
+  border-width: 8px;
+  border-style: solid;
+  right: 28px;
+  top: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .sec1 .firstxt {
+    font-size: 20px !important;
+    width: 100% !important;
+  }
+  .sec1 .search {
+    width: 40% !important;
+  }
+  .sec1 .navbar .container-fluid {
+    height: 300px;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+.sec2 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  background-image: url(../img/bg-white-3.png);
+  align-items: center;
+}
+.sec2 .container-fluid {
+  width: 95%;
+  height: 500px;
+}
+.sec2 .container-fluid .head {
+  border: 15px solid #687389;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  margin-bottom: 15px;
+}
+.sec2 .container-fluid .head h5 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec2 .container-fluid .head h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec2 .container-fluid .head h1, .sec2 .container-fluid .head h5 {
+  margin-left: 10px;
+}
+.sec2 .container-fluid .into {
+  height: auto;
+}
+.sec2 .container-fluid .into .row .card .image {
+  position: relative;
+}
+.sec2 .container-fluid .into .row .card .image .text {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.329);
+  height: 205px;
+}
+.sec2 .container-fluid .into .row .card .image .text .container {
+  width: 100%;
+  height: 180px;
+}
+.sec2 .container-fluid .into .row .card .image .text .container .contain {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec2 .container-fluid .into .row .card .image .text .container .contain .link {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.sec2 .container-fluid .into .row .card .image .text .container .contain .cost {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .sec2 {
+    height: 2200px;
+  }
+  .sec2 .container-fluid {
+    width: 85%;
+    height: 2000px;
+  }
+  .sec2 .container-fluid .card {
+    width: 100% !important;
+  }
+  .sec2 .container-fluid .card .text {
+    height: 307px !important;
+  }
+  .sec2 .container-fluid .cost {
+    width: 100% !important;
+  }
+}
+.sec3 {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+}
+.sec3 .container-fluid {
+  width: 95%;
+  height: 500px;
+}
+.sec3 .container-fluid .head {
+  height: 70px;
+  border: 15px solid #687389;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  margin-bottom: 20px;
+}
+.sec3 .container-fluid .head h5 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+.sec3 .container-fluid .head h1 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #687389;
+}
+.sec3 .container-fluid .head h5, .sec3 .container-fluid .head h1 {
+  margin-left: 10px;
+}
+.sec3 .container-fluid .inside {
+  height: auto;
+}
+.sec3 .container-fluid .inside .text {
+  transition: 0.5s;
+}
+.sec3 .container-fluid .inside .text:hover { /* IE 9 */ /* Safari 3-8 */
+  transform: scale(1.3);
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .sec3 {
+    height: 2000px;
+  }
+  .sec3 .container-fluid {
+    height: 2000px;
+    width: 100%;
+  }
+  .sec3 .container-fluid img {
+    width: 100% !important;
+  }
+  .sec3 .container-fluid .title {
+    width: 95% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .sec3 .container-fluid .text .text {
+    transition: 0.5s;
+  }
+  .sec3 .container-fluid .text .text:hover { /* IE 9 */ /* Safari 3-8 */
+    transform: scale(1.3);
+    overflow: hidden;
+  }
+}
+.sec5 {
+  width: 100%;
+  height: 350px;
+  background-image: url(../img/bg-white-3.png);
+}
+.sec5 .container-fluid {
+  width: 90%;
+  position: relative;
+}
+.sec5 .container-fluid .card-group {
+  position: absolute;
+  bottom: -200px;
+  box-shadow: 5px 36px 19px -10px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 600px) {
+  .sec5 {
+    height: 800px;
+    height: 400px;
+  }
+}
+.sec6 {
+  background-image: url(../img/bg-white-3.png);
+  height: 500px;
+}
+.sec6 .container-fluid {
+  width: 95%;
+}
+.sec6 .container-fluid .head {
+  border: 15px solid #687389;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+}
+.sec6 .container-fluid .head h5 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.sec6 .container-fluid .head h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #687389;
+  font-size: 30px;
+}
+.sec6 .container-fluid .head h5, .sec6 .container-fluid .head h1 {
+  margin-left: 10px;
+}
+.sec6 .container-fluid .into {
+  margin-top: 35px;
+}
+.sec6 .container-fluid .into .card {
+  position: relative;
+  box-shadow: -1px 0px 20px 5px rgba(0, 0, 0, 0.28);
+}
+.sec6 .container-fluid .into .card .text {
+  position: absolute;
+}
+.sec6 .container-fluid .into .card .text i {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .sec6 {
+    height: 1000px;
+  }
+  .sec6 .container-fluid {
+    width: 95%;
+  }
+}
+.sec7 {
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.sec7 .container-fluid {
+  height: 340px;
+}
+.sec7 .container-fluid .part2 {
+  height: 350px;
+}
+.sec7 .container-fluid .part2 .nvgtn {
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.sec7 .container-fluid .part2 .nvgtn .head {
+  border: 3px solid #687389;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 17%;
+}
+.sec7 .container-fluid .part2 .nvgtn .head h1 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.sec7 .container-fluid .part2 .nvgtn .into {
+  width: 80%;
+  height: 200px;
+}
+.sec7 .container-fluid .part2 .nvgtn .into .menu1 {
+  height: 200px;
+}
+.sec7 .container-fluid .part2 .nvgtn .into .menu1 ul {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sec7 .container-fluid .part2 .nvgtn .into .menu1 ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec7 .container-fluid .part2 .nvgtn .into .menu2 {
+  height: 200px;
+}
+.sec7 .container-fluid .part2 .nvgtn .into .menu2 ul {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sec7 .container-fluid .part2 .nvgtn .into .menu2 ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec7 .container-fluid .part3 {
+  height: 350px;
+}
+.sec7 .container-fluid .part3 .twtr {
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.sec7 .container-fluid .part3 .twtr .head h1 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.sec7 .container-fluid .part3 .twtr .head .line {
+  border: 3px solid #687389;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 17%;
+}
+.sec7 .container-fluid .part3 .twtr .into {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sec7 .container-fluid .part3 .twtr .into .text1 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sec7 .container-fluid .part3 .twtr .into .text1 .link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 20px;
+  font-size: 15px;
+}
+.sec7 .container-fluid .part3 .twtr .into .text1 .link a {
+  color: #687389;
+  text-decoration: none;
+}
+.sec7 .container-fluid .part3 .twtr .into .text1 p {
+  color: #687389;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec7 .container-fluid .part3 .twtr .into .text2 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sec7 .container-fluid .part3 .twtr .into .text2 .link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 20px;
+  font-size: 15px;
+}
+.sec7 .container-fluid .part3 .twtr .into .text2 .link a {
+  color: #687389;
+  text-decoration: none;
+}
+.sec7 .container-fluid .part3 .twtr .into .text2 p {
+  color: #687389;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec7 .container-fluid .part3 .twtr .into .text3 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sec7 .container-fluid .part3 .twtr .into .text3 .link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 20px;
+  font-size: 15px;
+}
+.sec7 .container-fluid .part3 .twtr .into .text3 .link a {
+  color: #687389;
+  text-decoration: none;
+}
+.sec7 .container-fluid .part3 .twtr .into .text3 p {
+  color: #687389;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec7 .container-fluid .part4 {
+  height: 300px;
+}
+.sec7 .container-fluid .part4 .letter {
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.sec7 .container-fluid .part4 .head h1 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.sec7 .container-fluid .part4 .head .line {
+  border: 3px solid #687389;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 17%;
+}
+.sec7 .container-fluid .part4 .into {
+  height: 250px;
+}
+.sec7 .container-fluid .part4 .into .text {
+  height: 100px;
+}
+.sec7 .container-fluid .part4 .into .text p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 25px;
+}
+.sec7 .container-fluid .part4 .into .input input {
+  padding: 8px;
+}
+.sec7 .container-fluid .part4 .into .input input::-moz-placeholder {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec7 .container-fluid .part4 .into .input input:-ms-input-placeholder {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec7 .container-fluid .part4 .into .input input::placeholder {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec7 .container-fluid .part4 .into .input button {
+  padding: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sec7 {
+    height: 1400px;
+  }
+  .sec7 .container-fluid {
+    height: 1300px;
+  }
+}
+.sec8 {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/bg-white-3.png);
+}
+.sec8 .container-fluid {
+  width: 100%;
+}
+.sec8 .container-fluid .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sec8 .container-fluid .row .text {
+  width: 30%;
+  display: flex;
+  align-items: flex-end;
+}
+.sec8 .container-fluid .row .text p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #687389;
+}
+.sec8 .container-fluid .row .icons {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  align-items: flex-end;
+}
+.sec8 .container-fluid .row .icons .fa-facebook-f {
+  background-color: #3B5998;
+  color: white;
+  padding: 8px 12px;
+}
+.sec8 .container-fluid .row .icons .fa-twitter {
+  background-color: #1DA1F2;
+  color: white;
+  padding: 8px 12px;
+}
+.sec8 .container-fluid .row .icons .fa-instagram {
+  background-color: #E1306C;
+  color: white;
+  padding: 8px 12px;
+}
+.sec8 .container-fluid .row .icons .fa-youtube {
+  background-color: #CD201F;
+  color: white;
+  padding: 8px 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sec8 {
+    height: 300px;
+  }
+  .sec8 .container-fluid {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
